@@ -85,9 +85,9 @@ def main() -> None:
                     for j in range(1, 4):  # Assuming there are 3 columns
                         if i == 1:
                             # Skip the header row as it is already written
-                            extraction_xpath = practice_site_locators.WEB_TABLE_FIXED_HEADER_XPATH.format(i=i, j=j)
+                            extraction_xpath = practice_site_locators.WEB_TABLE_FIXED_HEADER_COLUMN_NAME_XPATH.format(i=i, j=j)
                         else:
-                            extraction_xpath = practice_site_locators.WEB_TABLE_FIXED_HEADER_CELL_XPATH.format(i=i, j=j)
+                            extraction_xpath = practice_site_locators.WEB_TABLE_FIXED_HEADER_XPATH.format(i=i, j=j)
                         cell_text = keyword.custom_get_text_if_fully_loaded(extraction_xpath)
                         root_logger.info("Fixed header cell text at row %d, column %d: %s", i, j, cell_text)
                         row_data.append(cell_text)

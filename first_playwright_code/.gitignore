@@ -7,8 +7,9 @@ __pycache__/
 venv/
 env/
 .log*
-.log
-.pyc
+*.log
+*.pyc
+*.csv
 
 # Test and coverage output
 .pytest_cache/

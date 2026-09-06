@@ -9,6 +9,7 @@ env/
 .log*
 .log
 .pyc
+.csv
 
 # Test and coverage output
 .pytest_cache/
