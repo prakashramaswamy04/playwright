@@ -1,0 +1,13 @@
+DEFAULT_TIMEOUT: 90000
+
+TIME_SLEEP:
+  S: 2
+  M: 3
+  L: 5
+  XL: 10
+  XXL: 15
+  XXXL: 30
+  XXXXL: 60
+  XXXXXL: 120
+
+DEFAULT_UNWANTED_SYMBOLS: "!@#$%^&*()_+-=[]{}|;:',.<>/?`~"

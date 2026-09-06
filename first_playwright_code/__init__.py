@@ -1,0 +1,1 @@
+"""First Playwright automation project."""

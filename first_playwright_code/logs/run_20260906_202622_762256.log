@@ -1,0 +1,361 @@
+2026-09-06 20:26:22 | INFO | Test run started
+2026-09-06 20:26:26 | INFO | Browser opened
+2026-09-06 20:26:26 | INFO | Element visible: //legend[text()='Web Table Example']
+2026-09-06 20:26:27 | INFO | Scrolled to element: //legend[text()='Web Table Example']
+2026-09-06 20:26:27 | INFO | Got element count for xpath: //table[@id='product' and @name='courses']/tbody/tr -> 11
+2026-09-06 20:26:27 | INFO | Constructed CSV path: ./first_playwright_code/test_data/csv_files/web_table_data_1788706587.csv
+2026-09-06 20:26:27 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[1]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[1]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[1]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[1]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[1]
+2026-09-06 20:26:27 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[1] -> Instructor
+2026-09-06 20:26:27 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[1]/th[1] -> Instructor
+2026-09-06 20:26:27 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[2]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[2]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[2]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[2]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[2]
+2026-09-06 20:26:27 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[2] -> Course
+2026-09-06 20:26:27 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[1]/th[2] -> Course
+2026-09-06 20:26:27 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[3]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[3]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[3]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[3]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[3]
+2026-09-06 20:26:27 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[3] -> Price
+2026-09-06 20:26:27 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[1]/th[3] -> Price
+2026-09-06 20:26:27 | INFO | Created CSV file at path: ./first_playwright_code/test_data/csv_files/web_table_data_1788706587.csv with headers: ['Instructor', 'Course', 'Price']
+2026-09-06 20:26:27 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[1]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[1]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[1]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[1]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[1]
+2026-09-06 20:26:27 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[1] -> Instructor
+2026-09-06 20:26:27 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[1]/th[1] -> Instructor
+2026-09-06 20:26:27 | INFO | Cell text at row 1, column 1: Instructor
+2026-09-06 20:26:27 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[2]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[2]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[2]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[2]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[2]
+2026-09-06 20:26:27 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[2] -> Course
+2026-09-06 20:26:27 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[1]/th[2] -> Course
+2026-09-06 20:26:27 | INFO | Cell text at row 1, column 2: Course
+2026-09-06 20:26:27 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[3]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[3]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[3]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[1]/th[3]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[3]
+2026-09-06 20:26:27 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[1]/th[3] -> Price
+2026-09-06 20:26:27 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[1]/th[3] -> Price
+2026-09-06 20:26:27 | INFO | Cell text at row 1, column 3: Price
+2026-09-06 20:26:27 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[2]/td[1]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[2]/td[1]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[2]/td[1]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[2]/td[1]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[2]/td[1]
+2026-09-06 20:26:27 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[2]/td[1] -> Rahul Shetty
+2026-09-06 20:26:27 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[2]/td[1] -> Rahul Shetty
+2026-09-06 20:26:27 | INFO | Cell text at row 2, column 1: Rahul Shetty
+2026-09-06 20:26:27 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[2]/td[2]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[2]/td[2]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[2]/td[2]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[2]/td[2]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[2]/td[2]
+2026-09-06 20:26:27 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[2]/td[2] -> Selenium Webdriver with Java Basics + Advanced + Interview Guide
+2026-09-06 20:26:27 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[2]/td[2] -> Selenium Webdriver with Java Basics + Advanced + Interview Guide
+2026-09-06 20:26:27 | INFO | Cell text at row 2, column 2: Selenium Webdriver with Java Basics + Advanced + Interview Guide
+2026-09-06 20:26:27 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[2]/td[3]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[2]/td[3]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[2]/td[3]
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[2]/td[3]
+2026-09-06 20:26:27 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[2]/td[3]
+2026-09-06 20:26:27 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[2]/td[3] -> 30
+2026-09-06 20:26:27 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[2]/td[3] -> 30
+2026-09-06 20:26:27 | INFO | Cell text at row 2, column 3: 30
+2026-09-06 20:26:27 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:27 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[3]/td[1]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[3]/td[1]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[3]/td[1]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[3]/td[1]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[3]/td[1]
+2026-09-06 20:26:28 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[3]/td[1] -> Rahul Shetty
+2026-09-06 20:26:28 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[3]/td[1] -> Rahul Shetty
+2026-09-06 20:26:28 | INFO | Cell text at row 3, column 1: Rahul Shetty
+2026-09-06 20:26:28 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[3]/td[2]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[3]/td[2]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[3]/td[2]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[3]/td[2]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[3]/td[2]
+2026-09-06 20:26:28 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[3]/td[2] -> Learn SQL in Practical + Database Testing from Scratch
+2026-09-06 20:26:28 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[3]/td[2] -> Learn SQL in Practical + Database Testing from Scratch
+2026-09-06 20:26:28 | INFO | Cell text at row 3, column 2: Learn SQL in Practical + Database Testing from Scratch
+2026-09-06 20:26:28 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[3]/td[3]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[3]/td[3]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[3]/td[3]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[3]/td[3]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[3]/td[3]
+2026-09-06 20:26:28 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[3]/td[3] -> 25
+2026-09-06 20:26:28 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[3]/td[3] -> 25
+2026-09-06 20:26:28 | INFO | Cell text at row 3, column 3: 25
+2026-09-06 20:26:28 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[4]/td[1]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[4]/td[1]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[4]/td[1]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[4]/td[1]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[4]/td[1]
+2026-09-06 20:26:28 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[4]/td[1] -> Rahul Shetty
+2026-09-06 20:26:28 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[4]/td[1] -> Rahul Shetty
+2026-09-06 20:26:28 | INFO | Cell text at row 4, column 1: Rahul Shetty
+2026-09-06 20:26:28 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[4]/td[2]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[4]/td[2]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[4]/td[2]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[4]/td[2]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[4]/td[2]
+2026-09-06 20:26:28 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[4]/td[2] -> Appium (Selenium) - Mobile Automation Testing from Scratch
+2026-09-06 20:26:28 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[4]/td[2] -> Appium (Selenium) - Mobile Automation Testing from Scratch
+2026-09-06 20:26:28 | INFO | Cell text at row 4, column 2: Appium (Selenium) - Mobile Automation Testing from Scratch
+2026-09-06 20:26:28 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[4]/td[3]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[4]/td[3]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[4]/td[3]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[4]/td[3]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[4]/td[3]
+2026-09-06 20:26:28 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[4]/td[3] -> 30
+2026-09-06 20:26:28 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[4]/td[3] -> 30
+2026-09-06 20:26:28 | INFO | Cell text at row 4, column 3: 30
+2026-09-06 20:26:28 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[5]/td[1]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[5]/td[1]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[5]/td[1]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[5]/td[1]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[5]/td[1]
+2026-09-06 20:26:28 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[5]/td[1] -> Rahul Shetty
+2026-09-06 20:26:28 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[5]/td[1] -> Rahul Shetty
+2026-09-06 20:26:28 | INFO | Cell text at row 5, column 1: Rahul Shetty
+2026-09-06 20:26:28 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[5]/td[2]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[5]/td[2]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[5]/td[2]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[5]/td[2]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[5]/td[2]
+2026-09-06 20:26:28 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[5]/td[2] -> WebSecurity Testing for Beginners-QA knowledge to next level
+2026-09-06 20:26:28 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[5]/td[2] -> WebSecurity Testing for Beginners-QA knowledge to next level
+2026-09-06 20:26:28 | INFO | Cell text at row 5, column 2: WebSecurity Testing for Beginners-QA knowledge to next level
+2026-09-06 20:26:28 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[5]/td[3]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[5]/td[3]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[5]/td[3]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[5]/td[3]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[5]/td[3]
+2026-09-06 20:26:28 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[5]/td[3] -> 20
+2026-09-06 20:26:28 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[5]/td[3] -> 20
+2026-09-06 20:26:28 | INFO | Cell text at row 5, column 3: 20
+2026-09-06 20:26:28 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[6]/td[1]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[6]/td[1]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[6]/td[1]
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[6]/td[1]
+2026-09-06 20:26:28 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[6]/td[1]
+2026-09-06 20:26:28 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[6]/td[1] -> Rahul Shetty
+2026-09-06 20:26:28 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[6]/td[1] -> Rahul Shetty
+2026-09-06 20:26:28 | INFO | Cell text at row 6, column 1: Rahul Shetty
+2026-09-06 20:26:28 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:28 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[6]/td[2]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[6]/td[2]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[6]/td[2]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[6]/td[2]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[6]/td[2]
+2026-09-06 20:26:29 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[6]/td[2] -> Learn JMETER from Scratch - (Performance + Load) Testing Tool
+2026-09-06 20:26:29 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[6]/td[2] -> Learn JMETER from Scratch - (Performance + Load) Testing Tool
+2026-09-06 20:26:29 | INFO | Cell text at row 6, column 2: Learn JMETER from Scratch - (Performance + Load) Testing Tool
+2026-09-06 20:26:29 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[6]/td[3]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[6]/td[3]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[6]/td[3]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[6]/td[3]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[6]/td[3]
+2026-09-06 20:26:29 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[6]/td[3] -> 25
+2026-09-06 20:26:29 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[6]/td[3] -> 25
+2026-09-06 20:26:29 | INFO | Cell text at row 6, column 3: 25
+2026-09-06 20:26:29 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[7]/td[1]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[7]/td[1]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[7]/td[1]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[7]/td[1]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[7]/td[1]
+2026-09-06 20:26:29 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[7]/td[1] -> Rahul Shetty
+2026-09-06 20:26:29 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[7]/td[1] -> Rahul Shetty
+2026-09-06 20:26:29 | INFO | Cell text at row 7, column 1: Rahul Shetty
+2026-09-06 20:26:29 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[7]/td[2]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[7]/td[2]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[7]/td[2]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[7]/td[2]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[7]/td[2]
+2026-09-06 20:26:29 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[7]/td[2] -> WebServices / REST API Testing with SoapUI
+2026-09-06 20:26:29 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[7]/td[2] -> WebServices / REST API Testing with SoapUI
+2026-09-06 20:26:29 | INFO | Cell text at row 7, column 2: WebServices / REST API Testing with SoapUI
+2026-09-06 20:26:29 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[7]/td[3]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[7]/td[3]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[7]/td[3]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[7]/td[3]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[7]/td[3]
+2026-09-06 20:26:29 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[7]/td[3] -> 35
+2026-09-06 20:26:29 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[7]/td[3] -> 35
+2026-09-06 20:26:29 | INFO | Cell text at row 7, column 3: 35
+2026-09-06 20:26:29 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[8]/td[1]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[8]/td[1]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[8]/td[1]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[8]/td[1]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[8]/td[1]
+2026-09-06 20:26:29 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[8]/td[1] -> Rahul Shetty
+2026-09-06 20:26:29 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[8]/td[1] -> Rahul Shetty
+2026-09-06 20:26:29 | INFO | Cell text at row 8, column 1: Rahul Shetty
+2026-09-06 20:26:29 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[8]/td[2]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[8]/td[2]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[8]/td[2]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[8]/td[2]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[8]/td[2]
+2026-09-06 20:26:29 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[8]/td[2] -> QA Expert Course :Software Testing + Bugzilla + SQL + Agile
+2026-09-06 20:26:29 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[8]/td[2] -> QA Expert Course :Software Testing + Bugzilla + SQL + Agile
+2026-09-06 20:26:29 | INFO | Cell text at row 8, column 2: QA Expert Course :Software Testing + Bugzilla + SQL + Agile
+2026-09-06 20:26:29 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[8]/td[3]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[8]/td[3]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[8]/td[3]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[8]/td[3]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[8]/td[3]
+2026-09-06 20:26:29 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[8]/td[3] -> 25
+2026-09-06 20:26:29 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[8]/td[3] -> 25
+2026-09-06 20:26:29 | INFO | Cell text at row 8, column 3: 25
+2026-09-06 20:26:29 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[9]/td[1]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[9]/td[1]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[9]/td[1]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[9]/td[1]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[9]/td[1]
+2026-09-06 20:26:29 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[9]/td[1] -> Rahul Shetty
+2026-09-06 20:26:29 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[9]/td[1] -> Rahul Shetty
+2026-09-06 20:26:29 | INFO | Cell text at row 9, column 1: Rahul Shetty
+2026-09-06 20:26:29 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[9]/td[2]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[9]/td[2]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[9]/td[2]
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[9]/td[2]
+2026-09-06 20:26:29 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[9]/td[2]
+2026-09-06 20:26:29 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[9]/td[2] -> Master Selenium Automation in simple Python Language
+2026-09-06 20:26:29 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[9]/td[2] -> Master Selenium Automation in simple Python Language
+2026-09-06 20:26:29 | INFO | Cell text at row 9, column 2: Master Selenium Automation in simple Python Language
+2026-09-06 20:26:29 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:29 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[9]/td[3]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[9]/td[3]
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[9]/td[3]
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[9]/td[3]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[9]/td[3]
+2026-09-06 20:26:30 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[9]/td[3] -> 25
+2026-09-06 20:26:30 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[9]/td[3] -> 25
+2026-09-06 20:26:30 | INFO | Cell text at row 9, column 3: 25
+2026-09-06 20:26:30 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[10]/td[1]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[10]/td[1]
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[10]/td[1]
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[10]/td[1]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[10]/td[1]
+2026-09-06 20:26:30 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[10]/td[1] -> Rahul Shetty
+2026-09-06 20:26:30 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[10]/td[1] -> Rahul Shetty
+2026-09-06 20:26:30 | INFO | Cell text at row 10, column 1: Rahul Shetty
+2026-09-06 20:26:30 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[10]/td[2]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[10]/td[2]
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[10]/td[2]
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[10]/td[2]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[10]/td[2]
+2026-09-06 20:26:30 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[10]/td[2] -> Advanced Selenium Framework Pageobject, TestNG, Maven, Jenkins,C
+2026-09-06 20:26:30 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[10]/td[2] -> Advanced Selenium Framework Pageobject, TestNG, Maven, Jenkins,C
+2026-09-06 20:26:30 | INFO | Cell text at row 10, column 2: Advanced Selenium Framework Pageobject, TestNG, Maven, Jenkins,C
+2026-09-06 20:26:30 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[10]/td[3]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[10]/td[3]
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[10]/td[3]
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[10]/td[3]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[10]/td[3]
+2026-09-06 20:26:30 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[10]/td[3] -> 20
+2026-09-06 20:26:30 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[10]/td[3] -> 20
+2026-09-06 20:26:30 | INFO | Cell text at row 10, column 3: 20
+2026-09-06 20:26:30 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[11]/td[1]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[11]/td[1]
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[11]/td[1]
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[11]/td[1]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[11]/td[1]
+2026-09-06 20:26:30 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[11]/td[1] -> Rahul Shetty
+2026-09-06 20:26:30 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[11]/td[1] -> Rahul Shetty
+2026-09-06 20:26:30 | INFO | Cell text at row 11, column 1: Rahul Shetty
+2026-09-06 20:26:30 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[11]/td[2]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[11]/td[2]
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[11]/td[2]
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[11]/td[2]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[11]/td[2]
+2026-09-06 20:26:30 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[11]/td[2] -> Write effective QA Resume that will turn to interview call
+2026-09-06 20:26:30 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[11]/td[2] -> Write effective QA Resume that will turn to interview call
+2026-09-06 20:26:30 | INFO | Cell text at row 11, column 2: Write effective QA Resume that will turn to interview call
+2026-09-06 20:26:30 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[11]/td[3]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[11]/td[3]
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[11]/td[3]
+2026-09-06 20:26:30 | INFO | Element visible: //table[@id='product' and @name='courses']/tbody/tr[11]/td[3]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //table[@id='product' and @name='courses']/tbody/tr[11]/td[3]
+2026-09-06 20:26:30 | INFO | Got text for element: //table[@id='product' and @name='courses']/tbody/tr[11]/td[3] -> 0
+2026-09-06 20:26:30 | INFO | Got text from element after ensuring it was fully loaded: //table[@id='product' and @name='courses']/tbody/tr[11]/td[3] -> 0
+2026-09-06 20:26:30 | INFO | Cell text at row 11, column 3: 0
+2026-09-06 20:26:30 | INFO | Verified file exists at download path: ./first_playwright_code/test_data/csv_files/web_table_data_1788706587.csv
+2026-09-06 20:26:30 | INFO | Got element count for xpath: //div[@class='tableFixHead']//table[@id='product']/tbody/tr -> 9
+2026-09-06 20:26:30 | INFO | Constructed CSV path: ./first_playwright_code/test_data/csv_files/web_table_fixed_header_data_1788706590.csv
+2026-09-06 20:26:30 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:30 | INFO | Element visible: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[1]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[1]
+2026-09-06 20:26:30 | INFO | Element visible: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[1]
+2026-09-06 20:26:30 | INFO | Element visible: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[1]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[1]
+2026-09-06 20:26:30 | INFO | Got text for element: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[1] -> Name
+2026-09-06 20:26:30 | INFO | Got text from element after ensuring it was fully loaded: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[1] -> Name
+2026-09-06 20:26:30 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:30 | INFO | Element visible: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[2]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[2]
+2026-09-06 20:26:30 | INFO | Element visible: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[2]
+2026-09-06 20:26:30 | INFO | Element visible: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[2]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[2]
+2026-09-06 20:26:30 | INFO | Got text for element: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[2] -> Position
+2026-09-06 20:26:30 | INFO | Got text from element after ensuring it was fully loaded: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[2] -> Position
+2026-09-06 20:26:30 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:30 | INFO | Element visible: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[3]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[3]
+2026-09-06 20:26:30 | INFO | Element visible: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[3]
+2026-09-06 20:26:30 | INFO | Element visible: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[3]
+2026-09-06 20:26:30 | INFO | Mouse over on element: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[3]
+2026-09-06 20:26:30 | INFO | Got text for element: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[3] -> City
+2026-09-06 20:26:30 | INFO | Got text from element after ensuring it was fully loaded: //div[@class='tableFixHead']//table[@id='product']/thead/tr[1]/th[3] -> City
+2026-09-06 20:26:30 | INFO | Created CSV file at path: ./first_playwright_code/test_data/csv_files/web_table_fixed_header_data_1788706590.csv with headers: ['Name', 'Position', 'City']
+2026-09-06 20:26:30 | INFO | Page fully loaded after 1 attempts.
+2026-09-06 20:26:41 | INFO | Element '//div[@class='tableFixHead']//table[@id='product']/tbody/tr' is not visible and enabled after 10 seconds (visible: False, enabled: False), retrying... (attempt 1)
+2026-09-06 20:26:51 | INFO | Element '//div[@class='tableFixHead']//table[@id='product']/tbody/tr' is not visible and enabled after 10 seconds (visible: False, enabled: False), retrying... (attempt 2)
+2026-09-06 20:26:51 | INFO | Closed the browser and cleared references.
+2026-09-06 20:26:51 | INFO | Test run finished
