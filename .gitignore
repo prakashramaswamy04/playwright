@@ -1,2 +1,30 @@
-/.pytest_cache
-/.vscode
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+.log*
+.log
+.pyc
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+test-results/
+playwright-report/
+
+# IDE and local configuration
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Local environment files
+.env
+.env.*
+!.env.example
