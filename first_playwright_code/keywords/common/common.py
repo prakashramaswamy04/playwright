@@ -118,9 +118,11 @@ class Common:
         """Click the element if it is visible and enabled."""
         page = self._require_page()
         locator = page.locator(xpath)
-        if self.verify_visible(xpath, TIME_SLEEP["XL"]) and self.verify_enabled(xpath, TIME_SLEEP["XL"]):
+        enable_status = self.check_enabled(xpath, timeout=TIME_SLEEP["XL"] * 1000)
+        visible_status = self.check_visible(xpath, timeout=TIME_SLEEP["XL"] * 1000)
+        if visible_status == True  and enable_status == True:
             self.mouse_over(xpath)
-            self.click(xpath, timeout)
+            self.click_element(xpath, timeout)
             logger.info("Clicked element if it was visible and enabled: %s", xpath)
         else:
             raise TimeoutError("The element was not visible and enabled.")
