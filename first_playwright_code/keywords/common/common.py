@@ -70,7 +70,6 @@ class Common:
 
     def check(self, xpath: str, timeout: int = DEFAULT_TIMEOUT) -> None:
         """Check a visible checkbox or radio control."""
-        self.verify_visible(xpath, timeout)
         self._require_page().locator(xpath).check(timeout=timeout)
         logger.info("Checked element: %s", xpath)
 
@@ -98,7 +97,6 @@ class Common:
 
     def clear_element_text(self, xpath: str, timeout: int = DEFAULT_TIMEOUT) -> None:
         """Clear the text of a visible input element."""
-        self.verify_visible(xpath, timeout)
         self._require_page().locator(xpath).fill("", timeout=timeout)
         logger.info("Cleared text for element: %s", xpath)
 
@@ -109,8 +107,6 @@ class Common:
 
     def click_element(self, xpath: str, timeout: int = DEFAULT_TIMEOUT) -> None:
         """Click an enabled and visible element."""
-        self.verify_visible(xpath, timeout)
-        self.verify_enabled(xpath, timeout)
         self._require_page().locator(xpath).click(timeout=timeout)
         logger.info("Clicked: %s", xpath)
 
@@ -130,6 +126,7 @@ class Common:
     def click_element_javascript(self, xpath: str, timeout: int = DEFAULT_TIMEOUT) -> None:
         """Click an element by executing its JavaScript click handler."""
         self.verify_visible(xpath, timeout)
+        self.verify_enabled(xpath, timeout)
         self._require_page().locator(xpath).evaluate("(element) => element.click()")
         logger.info("Clicked using JavaScript: %s", xpath)
 
@@ -272,8 +269,6 @@ class Common:
 
     def double_click_element(self, xpath: str, timeout: int = DEFAULT_TIMEOUT) -> None:
         """Double-click an enabled and visible element."""
-        self.verify_visible(xpath, timeout)
-        self.verify_enabled(xpath, timeout)
         self._require_page().locator(xpath).dblclick(timeout=timeout)
         logger.info("Double-clicked: %s", xpath)
 
@@ -303,7 +298,6 @@ class Common:
 
     def get_attribute(self, xpath: str, attribute: str, timeout: int = DEFAULT_TIMEOUT) -> str | None:
         """Return an attribute value from a visible element."""
-        self.verify_visible(xpath, timeout)
         value = self._require_page().locator(xpath).get_attribute(
             attribute,
             timeout=timeout,
@@ -313,16 +307,14 @@ class Common:
 
     def get_element_count(self, xpath: str, timeout: int = DEFAULT_TIMEOUT) -> int:
         """Get the count of elements matching the xpath"""
-        #page = self._require_page()
         page = self._require_page()
         locator = page.locator(xpath)
-        count = locator.count()  # Use the locator defined above
+        count = locator.count()
         logger.info("Got element count for xpath: %s -> %d", xpath, count)
         return count
 
     def get_text(self, xpath: str, timeout: int = DEFAULT_TIMEOUT) -> str:
         """Return the inner text of a visible element."""
-        self.verify_visible(xpath, timeout)
         self.mouse_over(xpath, timeout)
         text = self._require_page().locator(xpath).inner_text(timeout=timeout)
         logger.info("Got text for element: %s -> %s", xpath, text)
@@ -331,13 +323,13 @@ class Common:
     def get_text_javascript(self, xpath: str, timeout: int = DEFAULT_TIMEOUT) -> str:
         """Return an element's inner text by executing JavaScript."""
         self.verify_visible(xpath, timeout)
+        self.verify_enabled(xpath, timeout)
         text = self._require_page().locator(xpath).evaluate("(element) => element.innerText")
         logger.info("Got text via JavaScript for element: %s -> %s", xpath, text)
         return text
 
     def get_value(self, xpath: str, timeout: int = DEFAULT_TIMEOUT) -> str:
         """Return the current value of a visible input element."""
-        self.verify_visible(xpath, timeout)
         value = self._require_page().locator(xpath).input_value(timeout=timeout)
         logger.info("Got value for element: %s -> %s", xpath, value)
         return value
@@ -348,27 +340,26 @@ class Common:
 
     def input_text(self, xpath: str, text: str, timeout: int = DEFAULT_TIMEOUT) -> None:
         """Fill an enabled and visible input with text."""
-        self.verify_visible(xpath, timeout)
-        self.verify_enabled(xpath, timeout)
+        self.mouse_over(xpath, timeout)
         self._require_page().locator(xpath).fill(text, timeout=timeout)
         logger.info("Entered text: %s", xpath)
 
     def keyboard_type(self, xpath: str, text: str, timeout: int = DEFAULT_TIMEOUT) -> None:
         """Wait for an element, focus it, and type text using the keyboard."""
-        self.verify_visible(xpath, timeout)
+        self.mouse_over(xpath, timeout)
         self._require_page().locator(xpath).focus(timeout=timeout)
         self._require_page().keyboard.type(text)
         logger.info("Typed text using keyboard for element: %s", xpath)
 
     def mouse_over(self, xpath: str, timeout: int = DEFAULT_TIMEOUT) -> None:
         """Move the mouse pointer over a visible element."""
-        self.verify_visible(xpath, timeout)
+        self.scroll_to_element(xpath, timeout)
         self._require_page().locator(xpath).hover(timeout=timeout)
         logger.info("Mouse over on element: %s", xpath)
 
     def press_key(self, xpath: str, key: str, timeout: int = DEFAULT_TIMEOUT) -> None:
         """Press a keyboard key on a visible element."""
-        self.verify_visible(xpath, timeout)
+        self.mouse_over(xpath, timeout)
         self._require_page().locator(xpath).press(key, timeout=timeout)
         logger.info("Pressed key '%s' for element: %s", key, xpath)
 
@@ -385,7 +376,6 @@ class Common:
 
     def scroll_to_element(self, xpath: str, timeout: int = DEFAULT_TIMEOUT) -> None:
         """Scroll a visible element into the viewport."""
-        self.verify_visible(xpath, timeout)
         self._require_page().locator(xpath).scroll_into_view_if_needed(
             timeout=timeout
         )
@@ -394,8 +384,6 @@ class Common:
     def select_frame(self, xpath: str, timeout: int = DEFAULT_TIMEOUT) -> None:
         """Select the frame identified by the given xpath."""
         page = self._require_page()
-        self.verify_visible(xpath)
-        self.verify_enabled(xpath)
         locator = page.locator(xpath)
         frame_element = locator.element_handle()
         if frame_element is None:
@@ -405,7 +393,6 @@ class Common:
 
     def select_option(self, xpath: str, value: str | list[str], timeout: int = DEFAULT_TIMEOUT) -> None:
         """Select one or more values from a dropdown element."""
-        self.verify_visible(xpath, timeout)
         self._require_page().locator(xpath).select_option(value, timeout=timeout)
         logger.info("Selected option '%s' for element: %s", value, xpath)
 
@@ -433,17 +420,17 @@ class Common:
 
     def uncheck(self, xpath: str, timeout: int = DEFAULT_TIMEOUT) -> None:
         """Uncheck a visible checkbox."""
-        self.verify_visible(xpath, timeout)
         self._require_page().locator(xpath).uncheck(timeout=timeout)
         logger.info("Unchecked element: %s", xpath)
 
     def upload_file(self, xpath: str, file_path: str, timeout: int = DEFAULT_TIMEOUT) -> None:
         """Upload a file to the element identified by the given xpath."""
         page = self._require_page()
-        self.verify_visible(xpath, timeout)
-        self.verify_enabled(xpath, timeout)
         locator = page.locator(xpath)
-        if self.verify_visible(xpath, TIME_SLEEP["XL"]) and self.verify_enabled(xpath, TIME_SLEEP["XL"]):
+        visible_status = self.verify_visible(xpath, TIME_SLEEP["XL"]*1000)
+        enabled_status = self.verify_enabled(xpath, TIME_SLEEP["XL"]*1000)
+        if visible_status and enabled_status:
+            self.mouse_over(xpath, TIME_SLEEP["XL"]*1000)
             locator.set_input_files(file_path)
             logger.info("Uploaded file to element: %s -> %s", xpath, file_path)
         else:
@@ -519,3 +506,28 @@ class Common:
         self._require_page().wait_for_url(url, timeout=timeout)
         logger.info("Waited for URL: %s", url)
 
+    def accept_pop_up(self, timeout: int = DEFAULT_TIMEOUT) -> None:
+        """Handle a pop-up dialog by accepting it."""
+        try:
+            with self._require_page().expect_event("dialog", timeout=timeout) as dialog_info:
+                pass  # The action that triggers the dialog should be performed before this method is called.
+            dialog = dialog_info.value
+            dialog.accept()
+            logger.info("Pop-up dialog accepted.")
+        except TimeoutError:
+            logger.error("No pop-up dialog appeared within the specified timeout.")
+            raise
+
+    def dismiss_pop_up(self, timeout: int = DEFAULT_TIMEOUT) -> None:
+        """Handle a pop-up dialog by dismissing it."""
+        try:
+            with self._require_page().expect_event("dialog", timeout=timeout) as dialog_info:
+                pass  # The action that triggers the dialog should be performed before this method is called.
+            dialog = dialog_info.value
+            dialog.dismiss()
+            logger.info("Pop-up dialog dismissed.")
+        except TimeoutError:
+            logger.error("No pop-up dialog appeared within the specified timeout.")
+            raise
+
+    
