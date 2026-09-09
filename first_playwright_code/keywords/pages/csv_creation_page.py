@@ -25,7 +25,7 @@ class CsvCreationPage:
     def create_csv_file_for_web(self, file_path_pattern, xpath):
         try:
             timestamp = int(time.time())
-            csv_path_web_table = self.keyword.create_a_csv_file(file_path_pattern.format(timestamp=timestamp))
+            csv_path_web_table = file_path_pattern.format(timestamp)
             column_headers = [self.keyword.custom_get_text_if_fully_loaded(xpath.format(i=1, j=j)) for j in range(1, 4)]        
             self.keyword.create_a_csv_file(csv_path_web_table, column_headers)
             return csv_path_web_table
