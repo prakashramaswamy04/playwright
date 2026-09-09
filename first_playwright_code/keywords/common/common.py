@@ -378,15 +378,10 @@ class Common:
         )
         logger.info("Scrolled to element: %s", xpath)
 
-    def select_frame(self, xpath: str, timeout: int = DEFAULT_TIMEOUT) -> None:
-        """Select the frame identified by the given xpath."""
-        page = self._require_page()
-        locator = page.locator(xpath)
-        frame_element = locator.element_handle()
-        if frame_element is None:
-            raise TimeoutError("The frame element was not found.")
-        page.frame_locator(f"xpath={xpath}").frame(element=frame_element)
-        logger.info("Selected frame for xpath: %s", xpath)
+    def select_frame(self, xpath: str) -> None:
+        """Select a frame using the given frame locator."""
+        self.keyword._require_page().frame_locator(xpath)
+        logger.info("Selected frame: %s", xpath)
 
     def select_option(self, xpath: str, value: str | list[str], timeout: int = DEFAULT_TIMEOUT) -> None:
         """Select one or more values from a dropdown element."""
