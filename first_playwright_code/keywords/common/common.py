@@ -66,7 +66,7 @@ class Common:
         self.page.goto(url)
         expect(self.page).to_have_url(url)
         self.page = self.maximize_window()
-        logger.info("Browser opened")
+        logger.info("Browser opened and headless mode set to: %s in browser: %s", headless, browser_name)
         return self.page
 
     def check(self, xpath: str, timeout: int = DEFAULT_TIMEOUT) -> None:
@@ -118,7 +118,6 @@ class Common:
         enable_status = self.check_enabled(xpath, timeout=TIME_SLEEP["XL"] * 1000)
         visible_status = self.check_visible(xpath, timeout=TIME_SLEEP["XL"] * 1000)
         if visible_status == True  and enable_status == True:
-            self.mouse_over(xpath)
             self.click_element(xpath, timeout)
             logger.info("Clicked element if it was visible and enabled: %s", xpath)
         else:
@@ -169,7 +168,6 @@ class Common:
             enable_status = self.check_enabled(xpath, timeout=TIME_SLEEP["XL"] * 1000)
             visible_status = self.check_visible(xpath, timeout=TIME_SLEEP["XL"] * 1000)
             if visible_status == True  and enable_status == True:
-                self.mouse_over(xpath)
                 self.click_element(xpath, timeout)
                 logger.info("Clicked element after ensuring it was fully loaded: %s", xpath)
                 return
@@ -210,7 +208,6 @@ class Common:
             enable_status = self.check_enabled(xpath, timeout=TIME_SLEEP["XL"] * 1000)
             visible_status = self.check_visible(xpath, timeout=TIME_SLEEP["XL"] * 1000)
             if (visible_status and enable_status):
-                self.mouse_over(xpath)
                 text = self.get_text(xpath, timeout)
                 logger.info("Got text from element after ensuring it was fully loaded: %s -> %s", xpath, text)
                 return text
@@ -244,7 +241,6 @@ class Common:
                 enable_status = self.check_enabled(xpath, timeout=TIME_SLEEP["XL"] * 1000)
                 visible_status = self.check_visible(xpath, timeout=TIME_SLEEP["XL"] * 1000)
                 if enable_status and visible_status:
-                    self.mouse_over(xpath)
                     self.input_text(xpath, text, timeout)
                     logger.info("Input text into element after ensuring it was fully loaded: %s", xpath)
                     return

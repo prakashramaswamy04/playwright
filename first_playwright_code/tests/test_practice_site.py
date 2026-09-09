@@ -1,7 +1,6 @@
 from collections.abc import Generator
 import time
 import pytest
-
 from playwright.sync_api import sync_playwright
 
 from first_playwright_code.keywords.common import Common
@@ -28,9 +27,13 @@ def test_practice_site_workflow(keyword: Common) -> None:
         basic_action = BasicFeature(keyword)
         csv_creation_feature = CsvCreationFeature(keyword)
         basic_action.perform_basic_action()
+        root_logger.info("Performed basic action done/n===============================")
         basic_action.perform_basic_mouse_over()
+        root_logger.info("Performed basic mouse over/n===============================")
         csv_creation_feature.create_csv_file_for_web_table()
+        root_logger.info("Created CSV file for web table/n===============================")
         csv_creation_feature.create_csv_file_for_web_fixed_table()
+        root_logger.info("Created CSV file for web fixed table/n===============================")
         time.sleep(10)
     finally:
         root_logger.info("Test run finished")
