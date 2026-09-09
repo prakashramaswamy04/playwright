@@ -1,16 +1,16 @@
 from first_playwright_code.keywords.pages.csv_creation_page import CsvCreationPage
+from first_playwright_code.keywords.common import Common
 from first_playwright_code.page_locators import practice_site_locators
-from first_playwright_code.tests.test_practice_site import keyword
 
 class CsvCreationFeature:
-    def __init__(self):
-        self.csv_creation_page = CsvCreationPage()
+    def __init__(self, keyword: Common):
+        self.csv_creation_page = CsvCreationPage(keyword)
 
     def create_csv_file_for_web_table(self):
         try:
             self.csv_creation_page.mouse_over_web_table(practice_site_locators.WEB_TABLE_XPATH)
             row_count_web_table = self.csv_creation_page.get_row_count_for_web_table(practice_site_locators.WEB_TABLE_ROW_XPATH)
-            csv_path_web_table = self.csv_creation_page.create_csv_file_for_web(practice_site_locators.WEB_TABLE_CSV_PATH, practice_site_locators.WEB_TABLE_COLUMN_NAMES_XPATH)
+            csv_path_web_table = self.csv_creation_page.create_csv_file_for_web(practice_site_locators.WEB_TABLE_DATA_CSV_PATH, practice_site_locators.WEB_TABLE_COLUMN_NAMES_XPATH)
             self.csv_creation_page.write_data_to_csv_for_web(
                 csv_path_web_table,
                 row_count_web_table,

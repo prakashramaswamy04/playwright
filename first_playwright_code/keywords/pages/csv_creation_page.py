@@ -1,11 +1,11 @@
 
 import csv
 import time
+from first_playwright_code.keywords.common import Common
 from first_playwright_code.page_locators import practice_site_locators
-from first_playwright_code.tests.test_practice_site import keyword
 
 class CsvCreationPage:
-    def __init__(self):
+    def __init__(self, keyword: Common):
         self.keyword = keyword
 
     def mouse_over_web_table(self, xpath):

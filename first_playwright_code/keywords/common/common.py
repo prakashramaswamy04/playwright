@@ -64,6 +64,7 @@ class Common:
         )
         self.page = self.browser.new_page()
         self.page.goto(url)
+        expect(self.page).to_have_url(url)
         self.page = self.maximize_window()
         logger.info("Browser opened")
         return self.page
@@ -530,4 +531,11 @@ class Common:
             logger.error("No pop-up dialog appeared within the specified timeout.")
             raise
 
-    
+    def open_context_menu(self, xpath: str, timeout: int = DEFAULT_TIMEOUT) -> None:
+        """Open the context menu for an element."""
+        try:
+            self._require_page().locator(xpath).click(button="right", timeout=timeout)
+            logger.info("Opened context menu for element: %s", xpath)
+        except Exception as e:
+            logger.error("Failed to open context menu for element: %s", xpath)
+            raise e

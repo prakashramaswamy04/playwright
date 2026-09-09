@@ -1,6 +1,5 @@
 from collections.abc import Generator
 import time
-import csv
 import pytest
 
 from playwright.sync_api import sync_playwright
@@ -26,8 +25,8 @@ def test_practice_site_workflow(keyword: Common) -> None:
     try:
         root_logger.info("Test run started")
         keyword.open_browser("chrome", practice_site_locators.PRACTICE_SITE_URL, headless=False)
-        basic_action = BasicFeature()
-        csv_creation_feature = CsvCreationFeature()
+        basic_action = BasicFeature(keyword)
+        csv_creation_feature = CsvCreationFeature(keyword)
         basic_action.perform_basic_action()
         basic_action.perform_basic_mouse_over()
         csv_creation_feature.create_csv_file_for_web_table()

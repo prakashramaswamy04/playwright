@@ -1,8 +1,9 @@
 from first_playwright_code.keywords.pages.basic_page import BasicPage
+from first_playwright_code.keywords.common import Common
 class BasicFeature:
 
-    def __init__(self):
-        self.basic_page = BasicPage()
+    def __init__(self, keyword: Common):
+        self.basic_page = BasicPage(keyword)
 
     def perform_basic_action(self):
         try:
