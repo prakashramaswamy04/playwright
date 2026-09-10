@@ -20,11 +20,11 @@ MOUSE_HOVER_REFRESH_XPATH = "//div[@class='mouse-hover-content']/a[text()='Reloa
 
 WEB_TABLE_XPATH = "//legend[text()='Web Table Example']"
 WEB_TABLE_ROW_XPATH = "//table[@id='product' and @name='courses']/tbody/tr"
-WEB_TABLE_COLUMN_NAME_XPATH = "//table[@id='product' and @name='courses']/tbody/tr[{i}]/th[{j}]"
+WEB_TABLE_COLUMN_NAMES_XPATH = "//table[@id='product' and @name='courses']/tbody/tr[{i}]/th[{j}]"
 WEB_TABLE_CELL_XPATH = "//table[@id='product' and @name='courses']/tbody/tr[{i}]/td[{j}]"
 
 WEB_TABLE_FIXED_HEADER_XPATH = "//div[@class='tableFixHead']//table[@id='product']/tbody/tr"
-WEB_TABLE_FIXED_HEADER_COLUMN_NAME_XPATH = "//div[@class='tableFixHead']//table[@id='product']/thead/tr[{i}]/th[{j}]"
+WEB_TABLE_FIXED_HEADER_COLUMN_NAMES_XPATH = "//div[@class='tableFixHead']//table[@id='product']/thead/tr[{i}]/th[{j}]"
 WEB_TABLE_FIXED_HEADER_CELL_XPATH = "//div[@class='tableFixHead']//table[@id='product']/tbody/tr[{i}]/td[{j}]"
 
 WEB_TABLE_DATA_CSV_PATH = "./first_playwright_code/test_data/csv_files/web_table_data_{}.csv"
